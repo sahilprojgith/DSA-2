@@ -29,7 +29,16 @@ public class revwordsstring {
 
 
 
-    public static void main(String[] args) {
+   public static void main(String[] args) {
+        revwordsstring rev = new revwordsstring();
 
+        String s1 = "Hi I am Sahil More";
+        String s2 = "   hello   world   ";
+        String s3 = "the sky is blue";
+
+        System.out.println(rev.reverseWords(s1)); // Output: "More Sahil am I Hi"
+        System.out.println(rev.reverseWords(s2)); // Output: "world hello"
+        System.out.println(rev.reverseWords(s3)); // Output: "blue is sky the"
     }
 }
+
