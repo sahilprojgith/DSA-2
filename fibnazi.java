@@ -1,7 +1,7 @@
 package faqs;
 
 public class fibnazi { // a fibonacci series is a series of a number
-    // where each number is a sum of a previous number.
+    // where each number is a sum of a previous number
     public static void main(String[] args){
 
         int n = 10;
@@ -26,3 +26,4 @@ public class fibnazi { // a fibonacci series is a series of a number
     }
     //inefficient for large numbers.
 }
+
